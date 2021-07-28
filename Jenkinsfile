@@ -2,7 +2,7 @@ pipeline {
     agent { 
        node {
          label "testarea" 
-         customWorkspace "R:/IT/DEVOPS/DEVOPSCLS/JENKINSCLS/SLAVE/workspace/demo"
+         customWorkspace "R:/IT/DEVOPS/DEVOPSCLS/JENKINSCLS/SLAVE/workspace/pipeline2"
        }
     }
 
