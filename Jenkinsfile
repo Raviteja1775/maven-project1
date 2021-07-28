@@ -20,7 +20,7 @@ pipeline {
         stage('Prod') {
             steps {
                 echo 'Hello Prod stage'
-                build quietPeriod: 4, job: 'sample project'
+                build quietPeriod: 4, job: 'pipeline1'
             }
         }
     }
